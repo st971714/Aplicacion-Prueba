@@ -1,0 +1,3 @@
+{
+  "AppFromDataMetaDataIdsToEntityNameMappings": "{\"%DataSourceName.AFD%\":\"Registro de productos\",\"%DataSourceValue.AFD%\":\"[@'Registro de productos']\",\"%SortFieldName.AFD%\":\"\\\"Title\\\"\",\"%SearchFieldName.AFD%\":\"\\\"Title\\\"\",\"%StartsWithFieldName.AFD%\":\"Title\",\"%DeleteConfirmFieldName.AFD%\":\"Title\",\"%SortDescending.AFD%\":\"SortDescending1\",\"%BrowseScreen.AFD%\":\"RegistroDeproducto\",\"%DetailScreen.AFD%\":\"'Detalle Del producto'\",\"%EditScreen.AFD%\":\"'Editar Producto'\",\"%BrowseContainer.ID%\":\"BrowseGallery1\",\"%DetailEditContainer.ID%\":\"EditForm1\"}"
+}

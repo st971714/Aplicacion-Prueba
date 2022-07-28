@@ -1,0 +1,74 @@
+{
+  "1a0f1348-5239-4217-b0b0-07d4c120a102": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Usuarios de Office 365",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1587/1.0.1587.2924/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "UsuariosdeOffice365"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "1a0f1348-5239-4217-b0b0-07d4c120a102"
+  },
+  "54ad9b0e-3f1c-47fc-b546-2a32798b56f4": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1588/1.0.1588.2938/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://ccolabs.sharepoint.com/sites/johanGallegoMontoyaApp": {
+        "dataSources": {
+          "Orden de producto": {
+            "tableName": "86c16cfd-0b3c-440c-b91e-b0ebb70990c3"
+          },
+          "Registro de productos": {
+            "tableName": "ec45faa0-381c-4c17-be02-00a51b9d95da"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Registro de productos",
+      "Orden de producto"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "54ad9b0e-3f1c-47fc-b546-2a32798b56f4"
+  },
+  "e8be7d74-7134-45b2-ab53-03e51ea9685e": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office\u00A0365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1588/1.0.1588.2938/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "e8be7d74-7134-45b2-ab53-03e51ea9685e"
+  }
+}
